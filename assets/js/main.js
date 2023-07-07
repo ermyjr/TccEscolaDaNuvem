@@ -241,10 +241,10 @@ document.addEventListener('DOMContentLoaded', function () {
           name: "Trilha Back-End: JAVA, ONE - Oracle Next Education - 2023"
         },
         {
-          name: "SalesForce: APEX, Aura Components , CAPGEMINI ACADEMY - 2023"
+          name: "SalesForce: APEX, Aura Components , Capgemini Academy - 2023"
         },
         {
-          name: "Big Data Engineer ,  SEMANTIX ACADEMY - 2023"
+          name: "Big Data Engineer ,  Semantix Academy - 2023"
         },
         {
           name: "Desenvolvimento em Rede Etherium , Gama Academy - 2023"
@@ -253,27 +253,27 @@ document.addEventListener('DOMContentLoaded', function () {
       ],
       interests: [
         {
-          iconClass: "art",
-          icon: "fas fa-dumbbell",
-          name: "Jujitsu"
+          iconClass: "sport",
+          icon: "fas fa-medal",
+          name: "Jiu-jítsu"
         },
         {
-          iconClass: "art",
-          icon: "fas fa-book",
+          iconClass: "sport",
+          icon: "fas fa-person-swimming",
           name: "Natação"
         },
         {
           iconClass: "movies",
-          icon: "fas fa-laptop-code",
+          icon: "fas fa-gamepad",
           name: "Video Games"
         },
         {
           iconClass: "music",
-          icon: "fas fa-bicycle",
+          icon: "fas fa-chain",
           name: "Blockchain"
         },
         {
-          iconClass: "games",
+          iconClass: "tecnology",
           icon: "fas fa-cloud",
           name: "Cloud"
         }
@@ -389,13 +389,13 @@ document.addEventListener('DOMContentLoaded', function () {
           name: "Tecnologia"
         },
         {
-          iconClass: "movies",
-          icon: "fas fa-book",
+          iconClass: "service",
+          icon: "fas fa-handshake",
           name: "Serviços Voluntários"
         },
         {
           iconClass: "music",
-          icon: "fas fa-language",
+          icon: "fas fa-cloud",
           name: "Cloud"
         }
       ],
@@ -404,16 +404,21 @@ document.addEventListener('DOMContentLoaded', function () {
     {
       experience: [
         {
-          position: "Jovem Aprendiz – Auxiliar de Marcenaria",
-          company: "COMERCIAL GOMES: Material de Construção",
-          date: "Fev 2018 - Out 2018"
+          position: "Desenvolvedor Web",
+          company: "Saj Club de Beneficios",
+          date: "Mar 2023 - Mai 2023"
+        },
+        {
+          position: "Auxiliar Adminstrativo",
+          company: "Prefeitura Municipal de Campo Grande",
+          date: "Set 2014 - Fev 2023"
         }
       ],
       education: [
         {
-          degree: "Sistemas de Informação",
-          institution: "IFMA",
-          date: "Jan. 2021 - Agora"
+          degree: "Ciência de Dados",
+          institution: "UFMS",
+          date: "Set 2022 - Jul 2025"
         }
       ],
       programmingSkills: [
@@ -422,27 +427,39 @@ document.addEventListener('DOMContentLoaded', function () {
           percent: 95
         },
         {
-          name: "Java",
+          name: "React",
           percent: 90
         },
         {
-          name: "HTML5",
+          name: "Next.JS",
           percent: 60
         },
         {
-          name: "CSS3",
+          name: "Node.JS",
+          percent: 60
+        },
+        {
+          name: "C#",
+          percent: 60
+        },
+        {
+          name: "Styled-Components",
           percent: 50
         },
         {
-          name: "NodeJS",
+          name: "Twailwind",
           percent: 40
         },
         {
-          name: "MySql",
+          name: "MS SQL Server",
           percent: 55
         },
         {
-          name: "Mongo DB",
+          name: "My SQL",
+          percent: 40
+        },
+        {
+          name: "Python",
           percent: 40
         },
         {
@@ -457,110 +474,142 @@ document.addEventListener('DOMContentLoaded', function () {
       certifications: [
         {
           name: "Fundamentos de AWS, Escola da Nuvem – 2023"
+        },
+        {
+          name: "Desenvolvimento Web Front-End, Escola Vai na Web - 2023"
+        },
+        {
+          name: "AWS Discovery Day, Ka Solution – 2023"
+        },
+        {
+          name: "Microsoft Security, Compliance, and Identity Fundamentals (SC-900), Ka Solution – 2023"
+        },
+        {
+          name: "Microsoft Azure Fundamentals (AZ-900), Ka Solution – 2023"
+        },
+        {
+          name: "Bootcamp Datastax – DevOps bootcamp – 05/2023"
+        },
+        {
+          name: "Bootcamp Monitoramento e Observabilidade, DevOps bootcamp – 2022"
+        },
+        {
+          name: "Desenvolvimento Web Full-Stack, DevClub – 2022"
         }
       ],
       interests: [
         {
-          iconClass: "art",
+          iconClass: "Tecnoligy",
           icon: "fas fa-laptop-code",
-          name: "Tecnologia"
+          name: "T.I."
+        },
+        {
+          iconClass: "art",
+          icon: "fas fa-film",
+          name: "Séries e Filmes"
+        },
+        {
+          iconClass: "art",
+          icon: "fas fa-guitar",
+          name: "Tocar Violão"
+        },
+        {
+          iconClass: "art",
+          icon: "fas fa-book",
+          name: "Estudar"
         },
       ],
-      pdfPath: "./assets/cvs/MaikeSombraCV.pdf"
+      pdfPath: "./assets/cvs/ElizeuRMJuniorCV.pdf"
     },
     {
       experience: [
         {
-          position: "Analista de Suporte N2",
-          company: "Locaweb",
-          date: "Out 2022 - Agora"
+          position: "Supervisor de Suporte Técnico",
+          company: "Uze Promotora de Vendas",
+          date: "Jan 2023 - Atual"
         },
         {
-          position: "Analista de Suporte N1",
-          company: "Locaweb",
-          date: "Jun 2021 - Out 2022"
-        },
-        {
-          position: "Auxiliar de Suporte e HelpDesk II",
-          company: "Centro Universitário São Camilo",
-          date: "Fev 2021 - Jun 2021"
-        },
-        {
-          position: "Auxiliar de Suporte e HelpDesk I",
-          company: "Centro Universitário São Camilo",
-          date: "Out 2019 - Jan 2021"
+          position: "Analista de suporte Técnico",
+          company: "Uze Promotora de Vendas",
+          date: "Out 2022 - Dez 2022"
         }
       ],
       education: [
         {
-          degree: "Tecnólogo em Gestão da Tecnologia da Informação",
-          institution: "Universidade Paulista",
-          date: "Jan. 2016 - Dez. 2017"
+          degree: "Técnico em redes de computadores",
+          institution: "Senai Cimatec",
+          date: "Fev 2020 - Jul 2021"
         }
       ],
       programmingSkills: [
         {
-          name: "HTML5",
+          name: "Pacote Office",
           percent: 95
         },
         {
-          name: "PHP",
+          name: "Google",
           percent: 90
         },
         {
-          name: "MySQL",
+          name: "CCNA Cisco",
           percent: 60
         },
         {
-          name: "SQL Server",
+          name: "AWS",
           percent: 50
-        },
-        {
-          name: "PHPMYAdmin",
-          percent: 40
-        },
-        {
-          name: "PostgreSQL",
-          percent: 55
-        },
-        {
-          name: "Kibana",
-          percent: 40
         },
         {
           name: "Linux",
           percent: 40
         },
         {
-          name: "AWS",
+          name: "Windows Server",
+          percent: 55
+        },
+        {
+          name: "Active Directory",
           percent: 40
-        }
+        },
+        {
+          name: "File Server",
+          percent: 40
+        },
       ],
       certifications: [
         {
-          name: "Administração de PostgreSQL com alta performance -/ 4Linux"
+          name: "File CCNA 1,2,3"
         },
         {
           name: "Administração MYSQL com alta performance e alta disponibilidade -/ 4Linux"
         },
         {
-          name: "Fundamentos do SAP-/ KaSolution"
-        },
-        {
-          name: "Computação em Nuvem AWS/ - KaSolution"
-        },
-        {
-          name: "Computação em Nuvem AWS/ - Escola da Nuvem"
+          name: "Fundamentos de AWS, Escola da Nuvem – 2023"
         }
       ],
       interests: [
         {
           iconClass: "art",
           icon: "fas fa-laptop-code",
-          name: "Tecnologia"
-        }
+          name: "Jogar futebol"
+        },
+        {
+          iconClass: "art",
+          icon: "fas fa-film",
+          name: "Filmes e Séries"
+        },
+        {
+          iconClass: "art",
+          icon: "fas fa-book",
+          name: "Estudar"
+        },
+        {
+          iconClass: "art",
+          icon: "fas fa-gamepad",
+          name: "Video Games"
+        },
+
       ],
-      pdfPath: "./assets/cvs/FelipeSouzaCV.pdf"
+      pdfPath: "./assets/cvs/EdmilsonBritoSilvaCV.pdf"
     }
   ];
 
