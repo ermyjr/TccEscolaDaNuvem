@@ -4,97 +4,98 @@ document.addEventListener('DOMContentLoaded', function () {
 
   const dataPerfil = [
     {
-      imgSrc: './assets/images/nath/capa.jpg',
-      perfilImgSrc: './assets/images/nath/nathimg.jpg',
-      nome: 'Natanaele Balica',
-      profissao: 'Desenvolvedora de software',
-      descricao: 'Sou uma engenheira e desenvolvedora de software com experiência em desenvolvimento back-end. Durante meu estágio como desenvolvedora, tive a oportunidade de conhecer e me interessar pela área de computação em nuvem.',
-      linkedin: 'https://www.linkedin.com/in/natanaelebalica/',
-      github: 'https://github.com/nathbalica'
+      imgSrc: './assets/images/felipeGeazi/felipeGeaziCapa.png',
+      perfilImgSrc: './assets/images/felipeGeazi/FelipeGeazi.png',
+      nome: 'Felipe Geazi',
+      profissao: 'Desenvolvedor Back-End',
+      descricao: 'Formado em Bacharelado em Design e Licenciatura em Artes Visuais, combino minha paixão por design e arte com minhas habilidades de desenvolvimento para criar soluções web atraentes e funcionais. Recentemente, lidei com diversos projetos usando React no front-end, Node.js e Express no back-end, e Python e Django para acesso a banco de dados.',
+      linkedin: 'https://www.linkedin.com/in/felipegeazi/',
+      github: 'https://github.com/FelipeGeazi'
     },
     {
-      imgSrc: './assets/images/suzana/capa.jpeg',
-      perfilImgSrc: './assets/images/suzana/suzana.png',
-      nome: 'Suzana Anselmo',
-      profissao: 'Interprete de Libras e professora',
-      descricao: 'Sou uma profissional entusiasmada e determinada a iniciar uma carreira na área de computação em nuvem. Tenho um desejo genuíno de aprender e crescer nesse campo, e uma paixão por tecnologias de nuvem, como Amazon Web Services (AWS) e Microsoft Azure.',
-      linkedin: 'https://www.linkedin.com/in/suzana-anselmo-71a575203/',
+      imgSrc: './assets/images/cristianoOliveira/cristianoOliveiraCapa.png',
+      perfilImgSrc: './assets/images/cristianoOliveira/cristianoOliveira.png',
+      nome: 'Cristiano Oliveira',
+      profissao: 'Analytics Engineer',
+      descricao: 'Profissional de dados, com atuação em cenários que envolvem o tratamento, manipulação e conhecimento sobre dados em processos de tomada de decisão, aprimorando habilidades como resolução de problemas através do trabalho em equipe em cenários complexos do mercado de dados e tecnologia.',
+      linkedin: 'https://www.linkedin.com/in/ccso',
+      github: 'https://github.com/CristianoCesar'
+    },
+    {
+      imgSrc: './assets/images/elizeuJunior/elizeuJuniorCapa.png',
+      perfilImgSrc: './assets/images/elizeuJunior/elizeuJunior.png',
+      nome: 'Elizeu R M Junior',
+      profissao: 'Desenvolvedor Front-End',
+      descricao: 'Sou apaixonado por tecnologia e tenho um forte interesse em soluções em nuvem, com foco na carreira de Analista de Cloud. Busco constantemente aprimorar meus conhecimentos para me especializar em projetar, implementar e otimizar infraestruturas na nuvem, visando atender às necessidades específicas das empresas.',
+      linkedin: 'https://www.linkedin.com/in/elizeu-jr/',
+      github: 'https://github.com/ermyjr'
+    },
+    {
+      imgSrc: './assets/images/edmilsonBrito/edmilsonBritoCapa.png',
+      perfilImgSrc: './assets/images/edmilsonBrito/edmilsonBrito.png',
+      nome: 'Edmilson Brito',
+      profissao: 'Analista de Suporte Técnico',
+      descricao: 'Atuando como analista de suporte técnico na Uze promotora de Vendas de outubro de 2018 á dezembro de 2022 e desde janeiro de 2023 como Supervisor de Suporte Técnico.',
+      linkedin: 'https://www.linkedin.com/in/ed-brito/',
       github: ''
     },
-    {
-      imgSrc: './assets/images/Maike/capa3.jpg',
-      perfilImgSrc: './assets/images/Maike/int3.jpeg',
-      nome: 'Maike Josuer',
-      profissao: 'Estudante',
-      descricao: 'Gostaria de colaborar em um ambiente de trabalho onde possa aproveitar a oportunidade e colocar em prática meus conhecimentos em favor da empresa na qual viso integrar, focando sempre o benefício e o crescimento da mesma.',
-      linkedin: 'https://www.linkedin.com/in/maike-sombra/',
-      github: 'https://github.com/Maike-Sombra'
-    },
-    {
-      imgSrc: './assets/images/felipe/capa4.jpg',
-      perfilImgSrc: './assets/images/felipe/int4.jpg',
-      nome: 'Felipe Lima',
-      profissao: 'Analista de suporte',
-      descricao: 'Analista de suporte com experiência na área técnica de resolução de problema, execução de configurações, reparo em aplicação, com base no problema relatado. Busco conhecer e aprender a implementar estratégias de migração de aplicações para a Cloud.',
-      linkedin: 'https://www.linkedin.com/in/felipe-lima-0841a5166/',
-      github: ''
-    }
+
     // Adicione mais objetos para mais containers aqui
   ];
 
 
   const dataSidebar = [
     {
-      imgSrc: './assets/images/nath/capa.jpg',
-      perfilImgSrc: './assets/images/nath/nathimg.jpg',
-      nome: 'Natanaele Balica',
-      profissao: 'Desenvolvedora de software',
-      descricao: "Sou uma engenheira e desenvolvedora de software com experiência em desenvolvimento back-end. Durante meu estágio como desenvolvedora, tive a oportunidade de conhecer e me interessar pela área de computação em nuvem.",
-      telefone: '(61)991581058',
-      endereco: 'Brasília, DF',
-      email: 'natanaelebalic@gmail.com',
-      instagram: 'https://instagram.com/nathbalica?igshid=MzNlNGNkZWQ4Mg==',
-      github: 'https://github.com/nathbalica',
-      linkedin: 'https://www.linkedin.com/in/natanaelebalica/'
+      imgSrc: './assets/images/felipeGeazi/felipeGeaziCapa.png',
+      perfilImgSrc: './assets/images/felipeGeazi/FelipeGeazi.png',
+      nome: 'Felipe Geazi',
+      profissao: 'Desenvolvedor Back-End',
+      descricao: 'Formado em Bacharelado em Design e Licenciatura em Artes Visuais, combino minha paixão por design e arte com minhas habilidades de desenvolvimento para criar soluções web atraentes e funcionais. Recentemente, lidei com diversos projetos usando React no front-end, Node.js e Express no back-end, e Python e Django para acesso a banco de dados.',
+      telefone: ' (21) 99226-9944',
+      endereco: 'Rio de Janeiro- RJ',
+      email: 'felipegeaziartes@gmail.com',
+      instagram: 'https://www.instagram.com/felipegeazicarmo/',
+      github: 'https://github.com/FelipeGeazi',
+      linkedin: 'https://www.linkedin.com/in/felipegeazi/'
     },
     {
-      imgSrc: './assets/images/suzana/capa.jpeg',
-      perfilImgSrc: './assets/images/suzana/suzana.png',
-      nome: 'Suzana Anselmo',
-      profissao: 'Interprete de Libras e professora',
-      descricao: 'Sou uma profissional entusiasmada e determinada a iniciar uma carreira na área de computação em nuvem. Tenho um desejo genuíno de aprender e crescer nesse campo, e uma paixão por tecnologias de nuvem, como Amazon Web Services (AWS) e Microsoft Azure.',
-      telefone: '(97)999590427',
-      endereco: 'Manaus, Amazonas',
-      email: 'susu.anselmo77@gmail.com',
+      imgSrc: './assets/images/cristianoOliveira/cristianoOliveiraCapa.png',
+      perfilImgSrc: './assets/images/cristianoOliveira/cristianoOliveira.png',
+      nome: 'Cristiano Oliveira',
+      profissao: 'Analytics Engineer',
+      descricao: 'Profissional de dados, com atuação em cenários que envolvem o tratamento, manipulação e conhecimento sobre dados em processos de tomada de decisão, aprimorando habilidades como resolução de problemas através do trabalho em equipe em cenários complexos do mercado de dados e tecnologia.',
+      telefone: '(12) 99706-6020',
+      endereco: ' Campos do Jordão,SP',
+      email: 'cristiano.cesar.oliveira@gmail.com',
+      instagram: '',
+      github: 'https://github.com/CristianoCesar',
+      linkedin: 'https://www.linkedin.com/in/ccso'
+    },
+    {
+      imgSrc: './assets/images/elizeuJunior/elizeuJuniorCapa.png',
+      perfilImgSrc: './assets/images/elizeuJunior/elizeuJunior.png',
+      nome: 'Elizeu R M Junior',
+      profissao: 'Desenvolvedor Front-End',
+      descricao: 'Sou apaixonado por tecnologia e tenho um forte interesse em soluções em nuvem, com foco na carreira de Analista de Cloud. Busco constantemente aprimorar meus conhecimentos para me especializar em projetar, implementar e otimizar infraestruturas na nuvem, visando atender às necessidades específicas das empresas.',
+      telefone: '(67) 99257-4712',
+      endereco: 'Campo Grande - MS',
+      email: 'ermyjr94@gmail.com',
+      instagram: 'https://www.instagram.com/ermjr/',
+      linkedin: 'https://www.linkedin.com/in/elizeu-jr/',
+      github: 'https://github.com/ermyjr'
+    },
+    {
+      imgSrc: './assets/images/edmilsonBrito/edmilsonBritoCapa.png',
+      perfilImgSrc: './assets/images/edmilsonBrito/edmilsonBrito.png',
+      nome: 'Edmilson Brito',
+      profissao: 'Analista de Suporte Técnico',
+      descricao: 'Atuando como analista de suporte técnico na Uze promotora de Vendas de outubro de 2018 á dezembro de 2022 e desde janeiro de 2023 como Supervisor de Suporte Técnico.',
+      telefone: '(71) 99380-6054',
+      endereco: 'Salvador, BA',
+      email: 'edbrito.3571@gmail.com',
       instagram: '',
       github: '',
-      linkedin: 'https://www.linkedin.com/in/suzana-anselmo-71a575203/'
-    },
-    {
-      imgSrc: './assets/images/Maike/capa3.jpg',
-      perfilImgSrc: './assets/images/Maike/int3.jpeg',
-      nome: 'Maike Josuer',
-      profissao: 'Estudante',
-      descricao: "Gostaria de colaborar em um ambiente de trabalho onde possa aproveitar a oportunidade e colocar em prática meus conhecimentos em favor da empresa na qual viso integrar, focando sempre o benefício e o crescimento da mesma.",
-      telefone: '(98) 98508-7097',
-      endereco: 'Turu, São Luís - MA',
-      email: 'maikejsn@gmail.com',
-      instagram: '',
-      linkedin: 'https://www.linkedin.com/in/maike-sombra/',
-      github: 'https://github.com/Maike-Sombra'
-    },
-    {
-      imgSrc: './assets/images/felipe/capa4.jpg',
-      perfilImgSrc: './assets/images/felipe/int4.jpg',
-      nome: 'Felipe Lima',
-      profissao: 'Analista de Suporte',
-      descricao: "Analista de suporte com experiência na área técnica de resolução de problema, execução de configurações, reparo em aplicação, com base no problema relatado. Busco conhecer e aprender a implementar estratégias de migração de aplicações para a Cloud.",
-      telefone: '(11) 95364-2889',
-      endereco: 'São Paulo - SP',
-      email: 'felipe_live@outlook.com.br',
-      instagram: '',
-      github: '',
-      linkedin: 'https://www.linkedin.com/in/felipe-lima-0841a5166/'
+      linkedin: 'https://www.linkedin.com/in/ed-brito/'
     }
     // Adicione mais objetos para mais perfis aqui
   ];
@@ -103,42 +104,37 @@ document.addEventListener('DOMContentLoaded', function () {
     {
       experience: [
         {
-          position: "Bootcamp desenvolvimento FullStack",
-          company: "Driven Education",
-          date: "Jan 2023 - Agora"
+          position: "Analista De Operações II",
+          company: "Ifood",
+          date: "Jul 2019 - Jun 2021)"
         },
         {
-          position: "Desenvolvedora BackEnd",
-          company: "Atmos Energy",
-          date: "Out 2022 - Mar 2023"
+          position: "Supervisor De Operações",
+          company: "Service Food Station",
+          date: "Jun 2018- Jul 2019"
         },
         {
-          position: " Estágio em Desenvolvimento BackEnd",
-          company: "Zapay",
-          date: "Out 2021 - Out 2022"
+          position: " Gerente De Operações",
+          company: "Manpower",
+          date: "Olimpíadas e Paraolimpíadas Rio-2016"
         }
       ],
       education: [
         {
-          degree: "Formação em desenvolvimento backend",
-          institution: "Pubnic",
-          date: "Nov. 2021 - Jun. 2022"
+          degree: " Licenciatura em Artes Visuais",
+          institution: "UERJ",
+          date: "ABR 13- DEZ 2020."
         },
         {
-          degree: "Engenharia Eletrônica",
-          institution: "Universidade de Brasília",
-          date: "Ago. 2015 - Ago. 2022"
-        },
-        {
-          degree: "Ensino Médio",
-          institution: "Manoel Teixeira de Albuquerque",
-          date: "Jan. 2011 - Dez. 2014"
+          degree: "Bacharelado em Design",
+          institution: "Unicarioca",
+          date: "JUL 2013- DEZ 2019"
         }
       ],
       programmingSkills: [
         {
-          name: "HTML5",
-          percent: 95
+          name: "HTML",
+          percent: 90
         },
         {
           name: "CSS",
@@ -153,19 +149,71 @@ document.addEventListener('DOMContentLoaded', function () {
           percent: 50
         },
         {
-          name: "Python",
+          name: "Styled Components",
           percent: 40
         },
         {
-          name: "Flask",
+          name: "TypeScript",
           percent: 55
         },
         {
-          name: "Django",
+          name: "JSON -Server",
           percent: 40
         },
         {
-          name: "Postgress",
+          name: "Next.js",
+          percent: 40
+        },
+        {
+          name: "JAVA",
+          percent: 40
+        },
+        {
+          name: "SalesForce",
+          percent: 40
+        },
+        {
+          name: "PYTHON",
+          percent: 40
+        },
+        {
+          name: "APEX",
+          percent: 40
+        },
+        {
+          name: "SQLite",
+          percent: 40
+        },
+        {
+          name: "DJANGO",
+          percent: 40
+        },
+        {
+          name: "Node.Js",
+          percent: 40
+        },
+        {
+          name: "PostgreSQL",
+          percent: 40
+        },
+        {
+          name: "SQL",
+          percent: 40
+        },
+        {
+          name: "Docker",
+          percent: 40
+        },
+        {
+          name: "TypeScript",
+          percent: 40
+        },
+        {
+          name: "JEST",
+          percent: 40
+        },
+        {
+          name: "GIT e GITHUB",
           percent: 40
         },
         {
@@ -173,49 +221,56 @@ document.addEventListener('DOMContentLoaded', function () {
           percent: 40
         },
         {
+          name: "Kafka",
+          percent: 40
+        },
+        {
+          name: "KSQL",
+          percent: 40
+        },
+        {
           name: "AWS",
           percent: 40
-        },
-        {
-          name: "Git e Github",
-          percent: 40
-        },
-        {
-          name: "APIs",
-          percent: 40
-        },
+        }
       ],
       certifications: [
         {
           name: "Fundamentos de AWS, Escola da Nuvem – 2023"
         },
         {
-          name: "Interfaces e Aplicações FrontEnd - 2023"
+          name: "Trilha Back-End: JAVA, ONE - Oracle Next Education - 2023"
         },
         {
-          name: "Desenvolvimento backend com Python - 2022"
+          name: "SalesForce: APEX, Aura Components , CAPGEMINI ACADEMY - 2023"
+        },
+        {
+          name: "Big Data Engineer ,  SEMANTIX ACADEMY - 2023"
+        },
+        {
+          name: "Desenvolvimento em Rede Etherium , Gama Academy - 2023"
         }
+
       ],
       interests: [
         {
           iconClass: "art",
           icon: "fas fa-dumbbell",
-          name: "Academia"
+          name: "Jujitsu"
         },
         {
           iconClass: "art",
           icon: "fas fa-book",
-          name: "Books"
+          name: "Natação"
         },
         {
           iconClass: "movies",
           icon: "fas fa-laptop-code",
-          name: "Tecnologia"
+          name: "Video Games"
         },
         {
           iconClass: "music",
           icon: "fas fa-bicycle",
-          name: "Ciclismo"
+          name: "Blockchain"
         },
         {
           iconClass: "games",
@@ -223,50 +278,108 @@ document.addEventListener('DOMContentLoaded', function () {
           name: "Cloud"
         }
       ],
-      pdfPath: "./assets/cvs/NatanaeleCV.pdf"
+      pdfPath: "./assets/cvs/FelipeGeaziCV.pdf"
     },
     {
       experience: [
         {
-          position: "Professora",
-          company: "Centro de Educação Tecnológica Do Amazonas - CETAM",
-          date: "Abr 2015 - Agora"
+          position: "Analytics Engineer",
+          company: "Indicium Tech",
+          date: "Jul 2022 - Atual"
+        },
+        {
+          position: "Intern Advanced Analytics",
+          company: "Imagem Geosistemas",
+          date: "Fev 2022 - Atual"
         }
       ],
       education: [
         {
-          degree: "Tecnico em administração",
-          institution: "Senac",
-          date: "2023 "
+          degree: "Bacharelado em Ciência de Dados",
+          institution: "IFSP",
+          date: "Ago 2021 - Jul 2025"
         },
         {
-          degree: "Computação em Nuvem",
+          degree: "Análise e Desenvolvimento de Sistema",
           institution: "Escola da Nuvem",
-          date: "2023"
+          date: "Fev 2012 - Dez 2014"
         },
-        {
-          degree: "Computação em Nuvem",
-          institution: "Fatec",
-          date: "2020"
-        },
-        {
-          degree: "Ensino Médio",
-          institution: "Escola Amazonense D. Pedro II",
-          date: "1996"
-        }
       ],
       programmingSkills: [
         {
-          name: "AWS",
+          name: "Python",
           percent: 95
-        }
+        },
+        {
+          name: "Pandas",
+          percent: 95
+        },
+        {
+          name: "Metabase",
+          percent: 95
+        },
+        {
+          name: "Modelagem de Dados",
+          percent: 95
+        },
+        {
+          name: "dbt",
+          percent: 95
+        },
+        {
+          name: "Airflow",
+          percent: 95
+        },
+        {
+          name: "Aprendizado de Máquina",
+          percent: 95
+        },
+        {
+          name: "Git",
+          percent: 95
+        },
+        {
+          name: "ETL",
+          percent: 95
+        },
+        {
+          name: "PowerBI",
+          percent: 95
+        },
+        {
+          name: "Azure",
+          percent: 95
+        },
+        {
+          name: "Cloud",
+          percent: 95
+        },
+        {
+          name: "GCP",
+          percent: 95
+        },
       ],
       certifications: [
         {
-          name: "Computação em Nuvem - Escola da Nuvem"
+          name: "Associate Cloud Enginner, GCP - Jul 2023"
         },
         {
-          name: "Computação em Nuvem - Fatec"
+          name: "Apache Airflow, Fundamentals - Jun 2023"
+        },
+        {
+          name: "Databricks Lakehouse, Fundamentals - Abr 2023"
+        },
+        {
+          name: "Azure AI 900, Fundamentals - Fev 2023"
+        },
+        {
+          name: "Azure AZ 900, Fundamentals - Nov 2022"
+        },
+        {
+          name: " Azure DP 900, Fundamentals - Out 2023"
+        },
+        {
+          name: "AWS Fundamentos, Escola da Nuvem - Jul 2023"
         }
       ],
       interests: [
@@ -278,12 +391,12 @@ document.addEventListener('DOMContentLoaded', function () {
         {
           iconClass: "movies",
           icon: "fas fa-book",
-          name: "Aprender coisas novas"
+          name: "Serviços Voluntários"
         },
         {
           iconClass: "music",
           icon: "fas fa-language",
-          name: "Idiomas"
+          name: "Cloud"
         }
       ],
       pdfPath: "./assets/cvs/suzana.pdf"
@@ -666,14 +779,14 @@ document.addEventListener('DOMContentLoaded', function () {
   // renderCVSection(cvData);
 
   function goToMainPage() {
-  
+
     const containerCv = document.querySelector('.container-cv');
     containerCv.classList.add('hidden');
 
     window.location.reload();
-    
+
   }
-  
+
   // Evento de clique do botão
   const backButton = document.getElementById('backButton');
   backButton.addEventListener('click', goToMainPage);
